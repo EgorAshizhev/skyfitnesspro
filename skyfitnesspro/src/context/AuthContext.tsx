@@ -3,7 +3,7 @@ import * as authApi from '../api/auth';
 import { setUnauthorizedHandler } from '../api/client';
 import { clearToken, getToken, setToken } from '../lib/token';
 import type { Credentials, User } from '../types';
-import { AuthContext, type AuthContextValue } from './authContext';
+import { AuthContext, type AuthContextValue } from './authContextValue';
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
