@@ -9,7 +9,7 @@ import WorkoutPage from './pages/WorkoutPage';
 
 export default function App() {
   return (
-    <div className="mx-auto max-w-[1160px] px-4">
+    <div className="mx-auto max-w-290 px-4">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />

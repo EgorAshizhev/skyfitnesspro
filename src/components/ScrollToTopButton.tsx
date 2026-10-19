@@ -3,7 +3,7 @@ export default function ScrollToTopButton() {
     <button
       type="button"
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      className="mx-auto my-10 block rounded-full bg-lime-300 px-6 py-3"
+      className="mx-auto mb-14 mt-10 block rounded-full bg-brand px-7 py-3 text-lg transition-opacity hover:opacity-80"
     >
       Наверх ↑
     </button>
